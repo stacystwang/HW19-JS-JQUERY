@@ -1,3 +1,53 @@
-a{
-    color:blue;
+/* RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+
+  #carouselExampleIndicators{
+      margin-top: 3rem;
+      margin-bottom: 5rem;
+  }
+
+
+
+
+footer{
+    margin-top:50px;
+    background-color:lightblue;
+    width:100%;
+    height:60px;
+    text-align:center;
 }
+
+.footer-text{
+    text-align:cetner;
+}
+
+
+@media (max-width: 1175px) {
+    body {
+      background-color:pink;
+    }
+  }
+  
+  @media (max-width: 1020px) {
+    body {
+        background-color:lightgoldenrodyellow;
+      }
+    }
+  
+  @media (max-width: 768px) {
+    body {
+        background-color:lightsalmon;
+      }
+  
+
+/* .footer-background{
+background-color:lightblue;
+} */
